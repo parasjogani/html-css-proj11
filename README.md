@@ -4,7 +4,7 @@ Hello, my name is paras jogani and I create a template using HTML and CSS.
 I learn lot of in this 11th project of my javascript bootcamp. It took so much time and its all about how you choose your portion to implement design.
 
 - I learn various uses of `div`
-- I leaen uses of flex and child properyty
+- I learn uses of flex and child property
 - How to use gradient in background color
 - Learn to create cards and add value on them, to set card use `flex-wrap: wrap;`
 
