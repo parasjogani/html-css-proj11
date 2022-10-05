@@ -342,3 +342,135 @@ footer {
     list-style: none;
 }
 
+/* media query */
+
+@media screen and (max-width:1230px) {
+    .nav-item {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .nav-items li a {
+        padding: 7px 18px;
+        border-radius: 12px;
+        margin-left: 48px;
+    }
+
+    .fact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        width: 378px;
+        gap: 12px;
+    }
+
+    .left h1{
+        font-size: 36px;
+    }
+
+    .right img {
+        width: 400px;
+        position: relative;
+        margin-top: 24px;
+        margin-left: -48px;
+    }
+
+    .service-head {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .service-head h1 {
+        font-size: 32px;
+        width: 378px;
+    }
+
+    .service-head p {
+        font-size: 14px;
+        width: 378px;
+    }
+
+    .service-card {
+        width: 378px;
+    }
+
+    .service-bottom {
+        display: flex;
+        flex-wrap: wrap;        
+    }
+
+    .plan {
+        height: 318vh;
+    }
+
+    .plan-heading h1 {
+        font-size: 28px;
+    }
+
+    .plan-cards {
+        display: flex;
+        flex-direction: column;
+        width: 1200px;
+        position: relative;
+        margin-top: 700px;
+        gap: 18px;
+    }
+
+    .review-head h1 {
+        font-size: 36px;
+        width: 300px;
+    }
+
+    .review-head p {
+        font-size: 14px;
+        width: 300px;
+    }
+
+    .review-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review-card {
+        width: 378px
+    }
+
+    .register {
+        display: flex;
+        flex-direction: column;
+        height: 456px;
+    }
+
+    .register-left h1, .register-left p {
+        width: 300px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo p{
+        width: 300px;
+    }
+
+    .links {
+        margin-left: 72px;
+        gap: 24px;
+    }
+
+    .socials h1 {
+        width: 300px;
+        margin-left: 200px;
+    }
+
+    .socials img {
+        margin-left: 72px;
+    }
+}
+
